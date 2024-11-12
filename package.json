@@ -1,0 +1,39 @@
+{
+	"name": "stackblitz-starters-bb6twa",
+	"version": "0.0.0",
+	"private": true,
+	"dependencies": {
+		"@types/react": "17.0.57",
+		"@types/react-dom": "17.0.2",
+		"grommet": "^2.33.1",
+		"grommet-icons": "^4.11.0",
+		"react": "17.0.2",
+		"react-app-rewired": "^2.2.1",
+		"react-cropper": "^2.3.3",
+		"react-dom": "17.0.2",
+		"styled-components": "^6.0.7",
+		"webp-encoder": "2.1.2"
+	},
+	"scripts": {
+		"start": "react-app-rewired start",
+		"build": "react-scripts build",
+		"test": "react-scripts test --env=jsdom",
+		"eject": "react-scripts eject"
+	},
+	"devDependencies": {
+		"copy-webpack-plugin": "^5.1.2",
+		"react-scripts": "latest"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+}
